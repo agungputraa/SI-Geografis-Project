@@ -1,0 +1,466 @@
+/3.2
+(ODB.1
+	Dependencies:	"$AVEXT/jfif.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"proj1.apr"
+	CreationDate:	"14 October 2024 10:23:16"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	ActiveDoc:	6
+	Buttons:	60
+	Buttons:	61
+	Buttons:	62
+	Dependencies:	63
+	Scripts:	64
+	Prefs:	65
+	WorkDir:	891
+	WinX:	-8
+	WinY:	-7
+	WinW:	1936
+	WinH:	1055
+	SerialNumber:	"911111111111"
+	SelColor:	892
+	GUINames:	893
+	GUINames:	894
+	GUINames:	895
+	GUINames:	896
+	GUINames:	897
+	GUINames:	898
+	GUINames:	899
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	246
+	H:	329
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(View.6
+	Name:	"View1"
+	CreationDate:	"14 October 2024 10:23:29"
+	GUIName:	"View"
+	Win:	7
+	CSMgr:	8
+	DocExts:	10
+	DocExts:	11
+	Graphics:	12
+	Theme:	19
+	Theme:	46
+	LastScale:	544292.90302590199000
+	Dpy:	13
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.7
+	Owner:	6
+	Open:	1
+	X:	-8
+	Y:	-8
+	W:	1938
+	H:	946
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.10
+	Doc:	6
+)
+
+(DocAct.11
+	Doc:	6
+)
+
+(GList.12
+	Dpy:	13
+	FormatNumb:	18
+)
+
+(MapDpy.13
+	Left:	114.44338910474237
+	Bottom:	-9.11093096855057
+	Top:	-7.94143423268457
+	Right:	116.16793034204444
+	ReportUnits:	4
+	Units:	10
+	Scale:	14
+	FrameTop:	9.40625000000000
+	FrameRight:	18.38541666666667
+	PageDpy:	15
+	FitToPage:	1
+	MouseLoc:	17
+)
+
+(Numb.14
+	N:	8.04298952834166
+)
+
+(PageDpy.15
+	Top:	9.40625000000000
+	Right:	18.38541666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	16
+	ZoomRight:	18.38541666666667
+	ZoomTop:	9.40625000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.16
+	N:	96.00000000000000
+)
+
+(PointD.17
+	x:	115.10556310579507
+	y:	-8.53330578117932
+)
+
+(Numb.18
+)
+
+(FTheme.19
+	Name:	"Area bali.shp"
+	Source:	20
+	Flags:	0x07
+	Legend:	29
+	Threshold:	42
+	View:	6
+	GSet:	43
+	LegEditScript:	"View.EditLegend"
+	TxPos:	44
+	AttrRules:	45
+	SnapTolCursor:	1
+)
+
+(ShpSrc.20
+	Name:	21
+	FTab:	23
+)
+
+(SrcName.21
+	FileName:	22
+	Name:	"area bali.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.22
+	Path:	"c:/peta bali/area bali.shp"
+)
+
+(FTab.23
+	Name:	"area bali.dbf"
+	BTab:	24
+	Fields:	27
+	Fields:	25
+	SelBits:	28
+	FSrc:	20
+)
+
+(dBASE.24
+	Name:	"area bali.dbf"
+	Fields:	25
+	FileName:	26
+)
+
+(Field.25
+	Name:	"ID"
+	Btab:	24
+	Alias:	"ID"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.26
+	Path:	"c:/peta bali/area bali.dbf"
+)
+
+(Field.27
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.28
+	NumBits:	4
+	NumBitsSet:	1
+	Bits:	00000002 
+)
+
+(Legend.29
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	30
+	Class:	35
+	StdDevs:	1.00000000000000
+	NullSym:	36
+	NullValues:	40
+	StatValues:	41
+	Precision:	-3
+)
+
+(SymList.30
+	Child:	31
+)
+
+(BShSym.31
+	Color:	32
+	Outline:	1
+	OutlineColor:	33
+	OutlineWidth:	0.10000000000000
+	BgColor:	34
+)
+
+(TClr.32
+	Green:	0xffff
+)
+
+(TClr.33
+)
+
+(TClr.34
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.35
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.36
+	Color:	37
+	Outline:	1
+	OutlineColor:	38
+	OutlineWidth:	0.10000000000000
+	BgColor:	39
+)
+
+(TClr.37
+	Name:	"Transparent"
+)
+
+(TClr.38
+	Name:	"Transparent"
+)
+
+(TClr.39
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.40
+)
+
+(NameDict.41
+)
+
+(Thresh.42
+)
+
+(GSet.43
+)
+
+(TxPosPly.44
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.45
+	FTab:	23
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(ITheme.46
+	Name:	"Petabali.jpg"
+	Source:	47
+	Flags:	0x06
+	Legend:	54
+	Threshold:	58
+	View:	6
+	GSet:	59
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.47
+	Name:	48
+	MapBox:	50
+	BandStats:	51
+	BandStats:	52
+	BandStats:	53
+)
+
+(SrcName.48
+	FileName:	49
+	Name:	"petabali.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.49
+	Path:	"c:/peta bali/petabali.jpg"
+)
+
+(RectD.50
+	Left:	114.31196626106546
+	Top:	-7.92152022169975
+	Right:	115.87973102224919
+	Bottom:	-8.98469907248703
+)
+
+(BStat.51
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.52
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.53
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.54
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	55
+	GreenLUT:	56
+	BlueLUT:	57
+)
+
+(ILUTIdn.55
+)
+
+(ILUTIdn.56
+)
+
+(ILUTIdn.57
+)
+
+(Thresh.58
+)
+
+(GSet.59
+)
+
+(LButn.60
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.61
+	Disabled:	1
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.62
+	Disabled:	1
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.63
+	Path:	"$AVEXT/jfif.avx"
+)
+
+(NameDict.64
+)
+
+(NameDict.65
+	Obj:	66
+	Obj:	67
+)
+
+(AVDict.66
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.67
+	InternalName:	"_Thor_"
+)
+
+(FN.891
+	Path:	"$HOME"
+)
+
+(TClr.892
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.893
+	S:	"View"
+)
+
+(AVStr.894
+	S:	"Table"
+)
+
+(AVStr.895
+	S:	"Chart"
+)
+
+(AVStr.896
+	S:	"Layout"
+)
+
+(AVStr.897
+	S:	"Script"
+)
+
+(AVStr.898
+	S:	"Project"
+)
+
+(AVStr.899
+	S:	"Appl"
+)
+
