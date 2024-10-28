@@ -1,0 +1,1038 @@
+/3.2
+(ODB.1
+	Dependencies:	"$AVEXT/jfif.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"lanjutan.apr"
+	CreationDate:	"21 October 2024 10:22:18"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	81
+	ActiveDoc:	81
+	Buttons:	141
+	Buttons:	142
+	Buttons:	143
+	Dependencies:	144
+	Scripts:	145
+	Prefs:	146
+	WorkDir:	974
+	WinX:	-8
+	WinY:	-7
+	WinW:	1936
+	WinH:	1055
+	SerialNumber:	"911111111111"
+	SelColor:	975
+	GUINames:	976
+	GUINames:	977
+	GUINames:	978
+	GUINames:	979
+	GUINames:	980
+	GUINames:	981
+	GUINames:	982
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	246
+	H:	329
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of Theme1.shp"
+	CreationDate:	"21 October 2024 10:58:58"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	140
+	VTab:	14
+)
+
+(DocWin.7
+	Owner:	6
+	X:	-8
+	Y:	-8
+	W:	1938
+	H:	946
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"RespondTable"
+)
+
+(FTheme.10
+	Name:	"Theme1.shp"
+	Source:	11
+	Flags:	0x07
+	Legend:	21
+	Threshold:	80
+	View:	81
+	GSet:	136
+	LegEditScript:	"View.EditLegend"
+	TxPos:	137
+	LabelField:	17
+	Table:	6
+	AttrRules:	138
+	AttrRules:	139
+	SnapTolCursor:	1
+)
+
+(ShpSrc.11
+	Name:	12
+	FTab:	14
+)
+
+(SrcName.12
+	FileName:	13
+	Name:	"theme1.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.13
+	Path:	"c:/wan/theme1.shp"
+)
+
+(FTab.14
+	Name:	"theme1.dbf"
+	BTab:	15
+	Fields:	19
+	Fields:	16
+	Fields:	17
+	SelBits:	20
+	FSrc:	11
+)
+
+(dBASE.15
+	Name:	"theme1.dbf"
+	Fields:	16
+	Fields:	17
+	FileName:	18
+)
+
+(Field.16
+	Name:	"Id"
+	Btab:	15
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.17
+	Name:	"Kabupaten"
+	Btab:	15
+	Alias:	"Kabupaten"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(FN.18
+	Path:	"c:/wan/theme1.dbf"
+)
+
+(Field.19
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.20
+	NumBits:	12
+	Bits:	00000000 
+)
+
+(Legend.21
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	22
+	Symbols:	23
+	Class:	64
+	Class:	65
+	Class:	66
+	Class:	67
+	Class:	68
+	Class:	69
+	Class:	70
+	Class:	71
+	Class:	72
+	Class:	73
+	StdDevs:	1.00000000000000
+	NullSym:	74
+	NullValues:	78
+	StatValues:	79
+	Precision:	-3
+)
+
+(AVStr.22
+	S:	"Kabupaten"
+)
+
+(SymList.23
+	Child:	24
+	Child:	28
+	Child:	32
+	Child:	36
+	Child:	40
+	Child:	44
+	Child:	48
+	Child:	52
+	Child:	56
+	Child:	60
+)
+
+(BShSym.24
+	Color:	25
+	Outline:	1
+	OutlineColor:	26
+	OutlineWidth:	0.10000000000000
+	BgColor:	27
+)
+
+(TClr.25
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.26
+)
+
+(TClr.27
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.28
+	Color:	29
+	Outline:	1
+	OutlineColor:	30
+	OutlineWidth:	0.10000000000000
+	BgColor:	31
+)
+
+(TClr.29
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.30
+)
+
+(TClr.31
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.32
+	Color:	33
+	Outline:	1
+	OutlineColor:	34
+	OutlineWidth:	0.10000000000000
+	BgColor:	35
+)
+
+(TClr.33
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.34
+)
+
+(TClr.35
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.36
+	Color:	37
+	Outline:	1
+	OutlineColor:	38
+	OutlineWidth:	0.10000000000000
+	BgColor:	39
+)
+
+(TClr.37
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.38
+)
+
+(TClr.39
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.40
+	Color:	41
+	Outline:	1
+	OutlineColor:	42
+	OutlineWidth:	0.10000000000000
+	BgColor:	43
+)
+
+(TClr.41
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.42
+)
+
+(TClr.43
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.44
+	Color:	45
+	Outline:	1
+	OutlineColor:	46
+	OutlineWidth:	0.10000000000000
+	BgColor:	47
+)
+
+(TClr.45
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.46
+)
+
+(TClr.47
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.48
+	Color:	49
+	Outline:	1
+	OutlineColor:	50
+	OutlineWidth:	0.10000000000000
+	BgColor:	51
+)
+
+(TClr.49
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.50
+)
+
+(TClr.51
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.52
+	Color:	53
+	Outline:	1
+	OutlineColor:	54
+	OutlineWidth:	0.10000000000000
+	BgColor:	55
+)
+
+(TClr.53
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.54
+)
+
+(TClr.55
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.56
+	Color:	57
+	Outline:	1
+	OutlineColor:	58
+	OutlineWidth:	0.10000000000000
+	BgColor:	59
+)
+
+(TClr.57
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.58
+)
+
+(TClr.59
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.60
+	Color:	61
+	Outline:	1
+	OutlineColor:	62
+	OutlineWidth:	0.10000000000000
+	BgColor:	63
+)
+
+(TClr.61
+	Name:	"Transparent"
+)
+
+(TClr.62
+	Name:	"Transparent"
+)
+
+(TClr.63
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.64
+	IsText:	1
+	Label:	"Badung"
+	MinStr:	"Badung"
+	MaxStr:	"Badung"
+	Precision:	-3
+)
+
+(LClass.65
+	IsText:	1
+	Label:	"Bangli"
+	MinStr:	"Bangli"
+	MaxStr:	"Bangli"
+	Precision:	-3
+)
+
+(LClass.66
+	IsText:	1
+	Label:	"Buleleng"
+	MinStr:	"Buleleng"
+	MaxStr:	"Buleleng"
+	Precision:	-3
+)
+
+(LClass.67
+	IsText:	1
+	Label:	"Denpasar"
+	MinStr:	"Denpasar"
+	MaxStr:	"Denpasar"
+	Precision:	-3
+)
+
+(LClass.68
+	IsText:	1
+	Label:	"Gianyar"
+	MinStr:	"Gianyar"
+	MaxStr:	"Gianyar"
+	Precision:	-3
+)
+
+(LClass.69
+	IsText:	1
+	Label:	"Jembrana"
+	MinStr:	"Jembrana"
+	MaxStr:	"Jembrana"
+	Precision:	-3
+)
+
+(LClass.70
+	IsText:	1
+	Label:	"Karangasem"
+	MinStr:	"Karangasem"
+	MaxStr:	"Karangasem"
+	Precision:	-3
+)
+
+(LClass.71
+	IsText:	1
+	Label:	"Klungkung"
+	MinStr:	"Klungkung"
+	MaxStr:	"Klungkung"
+	Precision:	-3
+)
+
+(LClass.72
+	IsText:	1
+	Label:	"Tabanan"
+	MinStr:	"Tabanan"
+	MaxStr:	"Tabanan"
+	Precision:	-3
+)
+
+(LClass.73
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.74
+	Color:	75
+	Outline:	1
+	OutlineColor:	76
+	OutlineWidth:	0.10000000000000
+	BgColor:	77
+)
+
+(TClr.75
+	Name:	"Transparent"
+)
+
+(TClr.76
+	Name:	"Transparent"
+)
+
+(TClr.77
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.78
+)
+
+(NameDict.79
+)
+
+(Thresh.80
+)
+
+(View.81
+	Name:	"View1"
+	CreationDate:	"21 October 2024 10:22:24"
+	GUIName:	"View"
+	Win:	82
+	CSMgr:	83
+	DocExts:	85
+	DocExts:	86
+	Graphics:	87
+	Theme:	10
+	Theme:	122
+	LastScale:	434658.95242369524000
+	Dpy:	117
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.82
+	Owner:	81
+	Open:	1
+	X:	-8
+	Y:	-8
+	W:	1938
+	H:	946
+)
+
+(CSMgr.83
+	Client:	84
+)
+
+(CSClient.84
+	Client:	85
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.85
+	Doc:	81
+)
+
+(DocAct.86
+	Doc:	81
+)
+
+(GList.87
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
+	Child:	107
+	Child:	109
+	Child:	111
+	Child:	113
+	Child:	115
+	Dpy:	117
+	FormatNumb:	121
+)
+
+(GLabel.88
+	Bounds:	89
+	Sym:	90
+	Text:	"Buleleng"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.89
+	Left:	114.94032164770623
+	Top:	-8.23076817560368
+	Right:	115.00673454636572
+	Bottom:	-8.25007425079540
+)
+
+(TxSym.90
+	Color:	91
+	Scale:	92
+	Font:	93
+	BgColor:	98
+	OlColor:	99
+	Size:	1.39003741380326
+)
+
+(TClr.91
+)
+
+(Numb.92
+	N:	10.07167135285573
+)
+
+(NFont.93
+	Family:	94
+	Name:	95
+	Style:	96
+	CommonFamily:	97
+	Weight:	1
+	Wideness:	1
+	UseCaching:	1
+)
+
+(AVStr.94
+	S:	"Arial"
+)
+
+(AVStr.95
+	S:	"Arial"
+)
+
+(AVStr.96
+	S:	"Normal"
+)
+
+(AVStr.97
+	S:	"Helvetica"
+)
+
+(TClr.98
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.99
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(List.100
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
+	Child:	107
+	Child:	109
+	Child:	111
+	Child:	113
+	Child:	115
+)
+
+(GLabel.101
+	Bounds:	102
+	Sym:	90
+	Text:	"Tabanan"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.102
+	Left:	115.03901851662013
+	Top:	-8.44179583898714
+	Right:	115.10620365828728
+	Bottom:	-8.46110191417885
+)
+
+(GLabel.103
+	Bounds:	104
+	Sym:	90
+	Text:	"Jembrana"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.104
+	Left:	114.63049131252208
+	Top:	-8.30095942388268
+	Right:	114.70655724877743
+	Bottom:	-8.32026549907440
+)
+
+(GLabel.105
+	Bounds:	106
+	Sym:	90
+	Text:	"Bangli"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.106
+	Left:	115.31172915741227
+	Top:	-8.25011314757928
+	Right:	115.35922210238388
+	Bottom:	-8.26941922277100
+)
+
+(GLabel.107
+	Bounds:	108
+	Sym:	90
+	Text:	"Karangasem"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.108
+	Left:	115.50624408716796
+	Top:	-8.36002851357207
+	Right:	115.60316058463034
+	Bottom:	-8.37933458876378
+)
+
+(GLabel.109
+	Bounds:	110
+	Sym:	90
+	Text:	"Badung"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.110
+	Left:	115.17082232648742
+	Top:	-8.53680059079137
+	Right:	115.22951279507024
+	Bottom:	-8.55610666598308
+)
+
+(GLabel.111
+	Bounds:	112
+	Sym:	90
+	Text:	"Gianyar"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.112
+	Left:	115.25486881455697
+	Top:	-8.47042015565009
+	Right:	115.31452458689937
+	Bottom:	-8.48972623084180
+)
+
+(GLabel.113
+	Bounds:	114
+	Sym:	90
+	Text:	"Klungkung"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.114
+	Left:	115.49409581348048
+	Top:	-8.72670804439498
+	Right:	115.57479520778185
+	Bottom:	-8.74601411958669
+)
+
+(GLabel.115
+	Bounds:	116
+	Sym:	90
+	Text:	"Denpasar"
+	Spacing:	1.00000000000000
+	Siblings:	100
+)
+
+(RectD.116
+	Left:	115.18279688438270
+	Top:	-8.64997469530667
+	Right:	115.25693221311887
+	Bottom:	-8.66928077049838
+)
+
+(MapDpy.117
+	Left:	114.48588849373152
+	Bottom:	-8.91522357817748
+	Top:	-7.98129219077841
+	Right:	115.86574138471698
+	ReportUnits:	4
+	Units:	10
+	Scale:	92
+	FrameTop:	9.40625000000000
+	FrameRight:	18.38541666666667
+	PageDpy:	118
+	FitToPage:	1
+	MouseLoc:	120
+)
+
+(PageDpy.118
+	Top:	9.40625000000000
+	Right:	18.38541666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	119
+	ZoomRight:	18.38541666666667
+	ZoomTop:	9.40625000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.119
+	N:	96.00000000000000
+)
+
+(PointD.120
+	x:	114.27135979162682
+	y:	-8.17262918598199
+)
+
+(Numb.121
+)
+
+(ITheme.122
+	Name:	"Peta balicontoh.jpg"
+	Source:	123
+	Flags:	0x04
+	Legend:	130
+	Threshold:	134
+	View:	81
+	GSet:	135
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.123
+	Name:	124
+	MapBox:	126
+	BandStats:	127
+	BandStats:	128
+	BandStats:	129
+)
+
+(SrcName.124
+	FileName:	125
+	Name:	"peta balicontoh.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.125
+	Path:	"c:/wan/peta balicontoh.jpg"
+)
+
+(RectD.126
+	Left:	114.31216071241633
+	Top:	-7.92310100633819
+	Right:	115.88017536126344
+	Bottom:	-8.98438667383713
+)
+
+(BStat.127
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.128
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.129
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.130
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	131
+	GreenLUT:	132
+	BlueLUT:	133
+)
+
+(ILUTIdn.131
+)
+
+(ILUTIdn.132
+)
+
+(ILUTIdn.133
+)
+
+(Thresh.134
+)
+
+(GSet.135
+)
+
+(GSet.136
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
+	Child:	107
+	Child:	109
+	Child:	111
+	Child:	113
+	Child:	115
+)
+
+(TxPosPly.137
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.138
+	FTab:	14
+	Field:	16
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.139
+	FTab:	14
+	Field:	17
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(DocAct.140
+	Doc:	6
+)
+
+(LButn.141
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"Table.New"
+)
+
+(LButn.142
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.143
+	HelpTopic:	"Print_button"
+	Update:	"Table.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Table.Action"
+)
+
+(FN.144
+	Path:	"$AVEXT/jfif.avx"
+)
+
+(NameDict.145
+)
+
+(NameDict.146
+	Obj:	147
+	Obj:	148
+)
+
+(AVDict.147
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.148
+	InternalName:	"_Thor_"
+)
+
+(FN.974
+	Path:	"$HOME"
+)
+
+(TClr.975
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.976
+	S:	"View"
+)
+
+(AVStr.977
+	S:	"Table"
+)
+
+(AVStr.978
+	S:	"Chart"
+)
+
+(AVStr.979
+	S:	"Layout"
+)
+
+(AVStr.980
+	S:	"Script"
+)
+
+(AVStr.981
+	S:	"Project"
+)
+
+(AVStr.982
+	S:	"Appl"
+)
+
