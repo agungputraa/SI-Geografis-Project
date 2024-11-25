@@ -1,6 +1,5 @@
 /3.2
 (ODB.1
-	Dependencies:	"$AVEXT/jfif.avx\n"
 	FirstRootClassName:	"Project"
 	Roots:	2
 	Version:	32
@@ -8,36 +7,35 @@
 
 (Project.2
 	Name:	"proj1.apr"
-	CreationDate:	"28 October 2024 10:13:16"
+	CreationDate:	"25 November 2024 11:02:34"
 	GUIName:	"Project"
 	Win:	3
 	CSMgr:	4
 	DocExts:	5
 	VisGUIWidth:	70
 	Doc:	6
-	Doc:	151
-	Doc:	90
-	ActiveDoc:	90
-	Buttons:	164
-	Buttons:	165
-	Buttons:	166
-	Dependencies:	167
-	Scripts:	168
-	Prefs:	169
-	WorkDir:	999
+	Doc:	181
+	Doc:	81
+	ActiveDoc:	81
+	Buttons:	185
+	Buttons:	186
+	Buttons:	187
+	Scripts:	188
+	Prefs:	189
+	WorkDir:	1018
 	WinX:	-8
 	WinY:	-7
 	WinW:	1936
 	WinH:	1055
 	SerialNumber:	"911111111111"
-	SelColor:	1000
-	GUINames:	1001
-	GUINames:	1002
-	GUINames:	1003
-	GUINames:	1004
-	GUINames:	1005
-	GUINames:	1006
-	GUINames:	1007
+	SelColor:	1019
+	GUINames:	1020
+	GUINames:	1021
+	GUINames:	1022
+	GUINames:	1023
+	GUINames:	1024
+	GUINames:	1025
+	GUINames:	1026
 	TocWidthScale:	1.00000000000000
 )
 
@@ -58,22 +56,21 @@
 )
 
 (Table.6
-	Name:	"Attributes of Theme1.shp"
-	CreationDate:	"28 October 2024 10:32:02"
+	Name:	"Attributes of Batas desa terbaru maret 2020.shp"
+	CreationDate:	"25 November 2024 11:37:29"
 	GUIName:	"Table"
 	Win:	7
 	CSMgr:	8
-	DocExts:	150
+	DocExts:	180
 	VTab:	14
 )
 
 (DocWin.7
 	Owner:	6
-	Open:	1
-	X:	943
-	Y:	49
-	W:	578
-	H:	507
+	X:	-8
+	Y:	-8
+	W:	1938
+	H:	946
 )
 
 (CSMgr.8
@@ -86,22 +83,17 @@
 )
 
 (FTheme.10
-	Name:	"Theme1.shp"
+	Name:	"Batas desa terbaru maret 2020.shp"
 	Source:	11
 	Flags:	0x07
-	Legend:	30
-	Threshold:	89
-	View:	90
-	GSet:	145
+	Legend:	46
+	Threshold:	80
+	View:	81
+	GSet:	178
 	LegEditScript:	"View.EditLegend"
-	TxPos:	146
-	LabelField:	18
-	HotField:	19
-	HotScript:	"Link.ImageFile"
+	TxPos:	179
+	LabelField:	33
 	Table:	6
-	AttrRules:	147
-	AttrRules:	148
-	AttrRules:	149
 	SnapTolCursor:	1
 )
 
@@ -112,62 +104,107 @@
 
 (SrcName.12
 	FileName:	13
-	Name:	"theme1.shp"
-	SubName:	"Polygon"
+	Name:	"batas desa terbaru maret 2020.shp"
+	SubName:	"PolygonZ"
 	OwnerClass:	"ShpSrc"
 )
 
 (FN.13
-	Path:	"c:/agung/theme1.shp"
+	Path:	"c:/agung2/batas desa terbaru maret 2020.shp"
 )
 
 (FTab.14
-	Name:	"theme1.dbf"
-	Joins:	15
-	BTab:	16
-	BTab:	21
-	Fields:	28
+	Name:	"batas desa terbaru maret 2020.dbf"
+	BTab:	15
+	Query:	"[Wadmkk] = \"Kota Denpasar\""
+	Fields:	44
+	Fields:	16
 	Fields:	17
 	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
 	Fields:	22
 	Fields:	23
 	Fields:	24
 	Fields:	25
 	Fields:	26
-	Fields:	19
-	SelBits:	29
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	Fields:	36
+	Fields:	37
+	Fields:	38
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	SelBits:	45
 	FSrc:	11
 )
 
-(Join.15
-	FromBtab:	16
-	FromField:	18
-	ToBtab:	21
-	ToField:	22
-)
-
-(dBASE.16
-	Name:	"theme1.dbf"
+(dBASE.15
+	Name:	"batas desa terbaru maret 2020.dbf"
+	Fields:	16
 	Fields:	17
 	Fields:	18
 	Fields:	19
-	FileName:	20
+	Fields:	20
+	Fields:	21
+	Fields:	22
+	Fields:	23
+	Fields:	24
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	Fields:	36
+	Fields:	37
+	Fields:	38
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	FileName:	43
 )
 
-(Field.17
-	Name:	"Id"
-	Btab:	16
-	Alias:	"Id"
+(Field.16
+	Name:	"Objectid"
+	Btab:	15
+	Alias:	"Objectid"
 	Visible:	1
 	Type:	9
 	Order:	-1
-	Pixels:	53
+	Pixels:	125
+)
+
+(Field.17
+	Name:	"Kdppum"
+	Btab:	15
+	Alias:	"Kdppum"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.18
-	Name:	"Kabupaten"
-	Btab:	16
-	Alias:	"Kabupaten"
+	Name:	"Namobj"
+	Btab:	15
+	Alias:	"Namobj"
 	Visible:	1
 	Type:	4
 	Order:	-1
@@ -175,227 +212,291 @@
 )
 
 (Field.19
-	Name:	"Gambar"
-	Btab:	16
-	Alias:	"Gambar"
+	Name:	"Remark"
+	Btab:	15
+	Alias:	"Remark"
 	Visible:	1
 	Type:	4
 	Order:	-1
 	Pixels:	150
 )
 
-(FN.20
-	Path:	"c:/agung/theme1.dbf"
+(Field.20
+	Name:	"Kdpbps"
+	Btab:	15
+	Alias:	"Kdpbps"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
-(DTxt.21
-	Name:	"tabel praktikum.txt"
-	Fields:	22
-	Fields:	23
-	Fields:	24
-	Fields:	25
-	Fields:	26
-	FileName:	27
-	Delim:	9
-	FFirst:	1
+(Field.21
+	Name:	"Fcode"
+	Btab:	15
+	Alias:	"Fcode"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.22
-	Name:	"Kabupaten"
-	Btab:	21
-	Alias:	"Kabupaten"
-	Type:	4
-	Pixels:	65
+	Name:	"Luaswh"
+	Btab:	15
+	Alias:	"Luaswh"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	149
 )
 
 (Field.23
-	Name:	"Luas"
-	Btab:	21
-	Alias:	"Luas"
+	Name:	"Uupp"
+	Btab:	15
+	Alias:	"Uupp"
 	Visible:	1
-	Type:	9
-	Order:	1
-	Pixels:	47
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.24
-	Name:	"Kecamatan"
-	Btab:	21
-	Alias:	"Kecamatan"
+	Name:	"Srs_id"
+	Btab:	15
+	Alias:	"Srs_id"
 	Visible:	1
-	Type:	9
-	Order:	2
-	Pixels:	59
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.25
-	Name:	"Desa"
-	Btab:	21
-	Alias:	"Desa"
+	Name:	"Metadata"
+	Btab:	15
+	Alias:	"Metadata"
 	Visible:	1
-	Type:	9
-	Order:	3
-	Pixels:	30
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.26
-	Name:	"Lahan pertanian"
-	Btab:	21
-	Alias:	"Lahan pertanian"
+	Name:	"Kdebps"
+	Btab:	15
+	Alias:	"Kdebps"
 	Visible:	1
-	Type:	9
-	Order:	4
-	Pixels:	82
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
-(FN.27
-	Path:	"c:/agung/tabel praktikum.txt"
+(Field.27
+	Name:	"Kdepum"
+	Btab:	15
+	Alias:	"Kdepum"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
 )
 
 (Field.28
+	Name:	"Kdcbps"
+	Btab:	15
+	Alias:	"Kdcbps"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.29
+	Name:	"Kdcpum"
+	Btab:	15
+	Alias:	"Kdcpum"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.30
+	Name:	"Kdbbps"
+	Btab:	15
+	Alias:	"Kdbbps"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.31
+	Name:	"Wadmkd"
+	Btab:	15
+	Alias:	"Wadmkd"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.32
+	Name:	"Wiadkd"
+	Btab:	15
+	Alias:	"Wiadkd"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.33
+	Name:	"Wadmkc"
+	Btab:	15
+	Alias:	"Wadmkc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.34
+	Name:	"Wiadkc"
+	Btab:	15
+	Alias:	"Wiadkc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.35
+	Name:	"Wadmkk"
+	Btab:	15
+	Alias:	"Wadmkk"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.36
+	Name:	"Wiadkk"
+	Btab:	15
+	Alias:	"Wiadkk"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.37
+	Name:	"Wadmpr"
+	Btab:	15
+	Alias:	"Wadmpr"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.38
+	Name:	"Wiadpr"
+	Btab:	15
+	Alias:	"Wiadpr"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.39
+	Name:	"Tipadm"
+	Btab:	15
+	Alias:	"Tipadm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.40
+	Name:	"Kdpkab"
+	Btab:	15
+	Alias:	"Kdpkab"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.41
+	Name:	"Shape_leng"
+	Btab:	15
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	149
+)
+
+(Field.42
+	Name:	"Shape_area"
+	Btab:	15
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	149
+)
+
+(FN.43
+	Path:	"c:/agung2/batas desa terbaru maret 2020.dbf"
+)
+
+(Field.44
 	Name:	"Shape"
 	Alias:	"Shape"
 	Visible:	1
 	Type:	19
 	Order:	-1
-	Pixels:	53
+	Pixels:	59
 )
 
-(Bitmap.29
-	NumBits:	12
-	NumBitsSet:	1
-	Bits:	00000001 
+(Bitmap.45
+	NumBits:	117182
+
 )
 
-(Legend.30
+(Legend.46
 	SymType:	0x02
 	LegType:	0x08
 	ClassType:	0x03
-	FieldNames:	31
-	Symbols:	32
+	FieldNames:	47
+	Symbols:	48
+	Class:	69
+	Class:	70
+	Class:	71
+	Class:	72
 	Class:	73
-	Class:	74
-	Class:	75
-	Class:	76
-	Class:	77
-	Class:	78
-	Class:	79
-	Class:	80
-	Class:	81
-	Class:	82
 	StdDevs:	1.00000000000000
-	NullSym:	83
-	NullValues:	87
-	StatValues:	88
+	NullSym:	74
+	NullValues:	78
+	StatValues:	79
 	Precision:	-3
 )
 
-(AVStr.31
-	S:	"Luas"
+(AVStr.47
+	S:	"Wadmkc"
 )
 
-(SymList.32
-	Child:	33
-	Child:	37
-	Child:	41
-	Child:	45
+(SymList.48
 	Child:	49
 	Child:	53
 	Child:	57
 	Child:	61
 	Child:	65
-	Child:	69
-)
-
-(BShSym.33
-	Color:	34
-	Outline:	1
-	OutlineColor:	35
-	OutlineWidth:	0.10000000000000
-	BgColor:	36
-)
-
-(TClr.34
-	Red:	0xc0ff
-	Green:	0x6538
-	Blue:	0x4920
-)
-
-(TClr.35
-)
-
-(TClr.36
-	Red:	0xffff
-	Green:	0xffff
-	Blue:	0xffff
-)
-
-(BShSym.37
-	Color:	38
-	Outline:	1
-	OutlineColor:	39
-	OutlineWidth:	0.10000000000000
-	BgColor:	40
-)
-
-(TClr.38
-	Red:	0xffff
-	Green:	0xd7d7
-)
-
-(TClr.39
-)
-
-(TClr.40
-	Red:	0xffff
-	Green:	0xffff
-	Blue:	0xffff
-)
-
-(BShSym.41
-	Color:	42
-	Outline:	1
-	OutlineColor:	43
-	OutlineWidth:	0.10000000000000
-	BgColor:	44
-)
-
-(TClr.42
-	Red:	0xbdbd
-	Green:	0xb7b7
-	Blue:	0x6b6b
-)
-
-(TClr.43
-)
-
-(TClr.44
-	Red:	0xffff
-	Green:	0xffff
-	Blue:	0xffff
-)
-
-(BShSym.45
-	Color:	46
-	Outline:	1
-	OutlineColor:	47
-	OutlineWidth:	0.10000000000000
-	BgColor:	48
-)
-
-(TClr.46
-	Red:	0xf7ff
-	Green:	0xb575
-	Blue:	0x67a7
-)
-
-(TClr.47
-)
-
-(TClr.48
-	Red:	0xffff
-	Green:	0xffff
-	Blue:	0xffff
 )
 
 (BShSym.49
@@ -407,9 +508,9 @@
 )
 
 (TClr.50
-	Red:	0xceff
-	Green:	0xc355
-	Blue:	0x9596
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
 )
 
 (TClr.51
@@ -430,9 +531,8 @@
 )
 
 (TClr.54
-	Red:	0xcdcd
-	Green:	0x9b9b
-	Blue:	0x1d1d
+	Red:	0xffff
+	Green:	0xd7d7
 )
 
 (TClr.55
@@ -453,9 +553,9 @@
 )
 
 (TClr.58
-	Red:	0xf0f0
-	Green:	0xe6e6
-	Blue:	0x8c8c
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
 )
 
 (TClr.59
@@ -476,9 +576,9 @@
 )
 
 (TClr.62
-	Red:	0xa7b2
-	Green:	0xafff
-	Blue:	0x5e2f
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
 )
 
 (TClr.63
@@ -499,12 +599,11 @@
 )
 
 (TClr.66
-	Red:	0xc0ff
-	Green:	0x90b1
-	Blue:	0x5834
+	Name:	"Transparent"
 )
 
 (TClr.67
+	Name:	"Transparent"
 )
 
 (TClr.68
@@ -513,148 +612,96 @@
 	Blue:	0xffff
 )
 
-(BShSym.69
-	Color:	70
-	Outline:	1
-	OutlineColor:	71
-	OutlineWidth:	0.10000000000000
-	BgColor:	72
+(LClass.69
+	IsText:	1
+	Label:	"Denpasar Barat"
+	MinStr:	"Denpasar Barat"
+	MaxStr:	"Denpasar Barat"
+	Precision:	-3
 )
 
-(TClr.70
-	Name:	"Transparent"
+(LClass.70
+	IsText:	1
+	Label:	"Denpasar Selatan"
+	MinStr:	"Denpasar Selatan"
+	MaxStr:	"Denpasar Selatan"
+	Precision:	-3
 )
 
-(TClr.71
-	Name:	"Transparent"
+(LClass.71
+	IsText:	1
+	Label:	"Denpasar Timur"
+	MinStr:	"Denpasar Timur"
+	MaxStr:	"Denpasar Timur"
+	Precision:	-3
 )
 
-(TClr.72
-	Red:	0xffff
-	Green:	0xffff
-	Blue:	0xffff
+(LClass.72
+	IsText:	1
+	Label:	"Denpasar Utara"
+	MinStr:	"Denpasar Utara"
+	MaxStr:	"Denpasar Utara"
+	Precision:	-3
 )
 
 (LClass.73
-	Label:	"127.78"
-	MinNum:	127.78000000000000
-	MaxNum:	127.78000000000000
-	Precision:	-3
-)
-
-(LClass.74
-	Label:	"315"
-	MinNum:	315.00000000000000
-	MaxNum:	315.00000000000000
-	Precision:	-3
-)
-
-(LClass.75
-	Label:	"368"
-	MinNum:	368.00000000000000
-	MaxNum:	368.00000000000000
-	Precision:	-3
-)
-
-(LClass.76
-	Label:	"418.52"
-	MinNum:	418.51999999999998
-	MaxNum:	418.51999999999998
-	Precision:	-3
-)
-
-(LClass.77
-	Label:	"520.81"
-	MinNum:	520.80999999999995
-	MaxNum:	520.80999999999995
-	Precision:	-3
-)
-
-(LClass.78
-	Label:	"839.33"
-	MinNum:	839.33000000000004
-	MaxNum:	839.33000000000004
-	Precision:	-3
-)
-
-(LClass.79
-	Label:	"839.54"
-	MinNum:	839.53999999999996
-	MaxNum:	839.53999999999996
-	Precision:	-3
-)
-
-(LClass.80
-	Label:	"841.8"
-	MinNum:	841.79999999999995
-	MaxNum:	841.79999999999995
-	Precision:	-3
-)
-
-(LClass.81
-	Label:	"1365.88"
-	MinNum:	1365.88000000000010
-	MaxNum:	1365.88000000000010
-	Precision:	-3
-)
-
-(LClass.82
 	IsNoData:	1
+	IsText:	1
 	Label:	"No Data"
-	MaxNum:	-1.00000000000000
 	Precision:	-3
 )
 
-(BShSym.83
-	Color:	84
+(BShSym.74
+	Color:	75
 	Outline:	1
-	OutlineColor:	85
+	OutlineColor:	76
 	OutlineWidth:	0.10000000000000
-	BgColor:	86
+	BgColor:	77
 )
 
-(TClr.84
+(TClr.75
 	Name:	"Transparent"
 )
 
-(TClr.85
+(TClr.76
 	Name:	"Transparent"
 )
 
-(TClr.86
+(TClr.77
 	Red:	0xffff
 	Green:	0xffff
 	Blue:	0xffff
 )
 
-(NameDict.87
+(NameDict.78
 )
 
-(NameDict.88
+(NameDict.79
 )
 
-(Thresh.89
+(Thresh.80
 )
 
-(View.90
+(View.81
 	Name:	"View1"
-	CreationDate:	"28 October 2024 10:13:22"
+	CreationDate:	"25 November 2024 11:02:36"
 	GUIName:	"View"
-	Win:	91
-	CSMgr:	92
-	DocExts:	94
-	DocExts:	95
-	Graphics:	96
+	Win:	82
+	CSMgr:	83
+	DocExts:	85
+	DocExts:	86
+	Graphics:	87
+	Theme:	112
+	Theme:	152
 	Theme:	10
-	Theme:	131
-	LastScale:	543323.69052961899000
-	Dpy:	126
+	LastScale:	71134.59931089787300
+	Dpy:	107
 	TOCWidth:	150
 	CoordPrecision:	2
 )
 
-(DocWin.91
-	Owner:	90
+(DocWin.82
+	Owner:	81
 	Open:	1
 	X:	-8
 	Y:	-8
@@ -662,577 +709,726 @@
 	H:	946
 )
 
-(CSMgr.92
-	Client:	93
+(CSMgr.83
+	Client:	84
 )
 
-(CSClient.93
-	Client:	94
+(CSClient.84
+	Client:	85
 	ReqName:	"ClientNfy"
 )
 
-(PanMgr.94
-	Doc:	90
+(PanMgr.85
+	Doc:	81
 )
 
-(DocAct.95
-	Doc:	90
+(DocAct.86
+	Doc:	81
 )
 
-(GList.96
-	Child:	97
-	Child:	110
-	Child:	112
-	Child:	114
-	Child:	116
-	Child:	118
-	Child:	120
-	Child:	122
-	Child:	124
-	Dpy:	126
-	FormatNumb:	130
+(GList.87
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
+	Dpy:	107
+	FormatNumb:	111
 )
 
-(GLabel.97
-	Bounds:	98
-	Sym:	99
-	Text:	"Buleleng"
+(GLabel.88
+	Bounds:	89
+	Sym:	90
+	Text:	"Denpasar Selatan"
 	Spacing:	1.00000000000000
-	Siblings:	109
+	Siblings:	100
 )
 
-(RectD.98
-	Left:	114.93202003537380
-	Top:	-8.22835491620472
-	Right:	115.01503615869815
-	Bottom:	-8.25248751019436
+(RectD.89
+	Left:	115.17491405312323
+	Top:	-8.70943865695907
+	Right:	115.21866651832818
+	Bottom:	-8.71560966756625
 )
 
-(TxSym.99
-	Color:	100
-	Scale:	101
-	Font:	102
-	BgColor:	107
-	OlColor:	108
-	Size:	1.73754676725408
+(TxSym.90
+	Color:	91
+	Scale:	92
+	Font:	93
+	BgColor:	98
+	OlColor:	99
+	Size:	0.44431276371739
 )
 
-(TClr.100
+(TClr.91
 )
 
-(Numb.101
-	N:	8.05733708228459
+(Numb.92
+	N:	61.54167116700608
 )
 
-(NFont.102
-	Family:	103
-	Name:	104
-	Style:	105
-	CommonFamily:	106
+(NFont.93
+	Family:	94
+	Name:	95
+	Style:	96
+	CommonFamily:	97
 	Weight:	1
 	Wideness:	1
 	UseCaching:	1
 )
 
-(AVStr.103
+(AVStr.94
 	S:	"Arial"
 )
 
-(AVStr.104
+(AVStr.95
 	S:	"Arial"
 )
 
-(AVStr.105
+(AVStr.96
 	S:	"Normal"
 )
 
-(AVStr.106
+(AVStr.97
 	S:	"Helvetica"
 )
 
-(TClr.107
+(TClr.98
 	Red:	0xff
 	Green:	0xff
 	Blue:	0xff
 )
 
-(TClr.108
+(TClr.99
 	Red:	0xff
 	Green:	0xff
 	Blue:	0xff
 )
 
-(List.109
-	Child:	97
-	Child:	110
-	Child:	112
-	Child:	114
-	Child:	116
-	Child:	118
-	Child:	120
-	Child:	122
-	Child:	124
+(List.100
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
 )
 
-(GLabel.110
-	Bounds:	111
-	Sym:	99
-	Text:	"Tabanan"
+(GLabel.101
+	Bounds:	102
+	Sym:	90
+	Text:	"Denpasar Barat"
 	Spacing:	1.00000000000000
-	Siblings:	109
+	Siblings:	100
 )
 
-(RectD.111
-	Left:	115.03062037391173
-	Top:	-8.43938257958818
-	Right:	115.11460180099567
-	Bottom:	-8.46351517357782
+(RectD.102
+	Left:	115.17845214808419
+	Top:	-8.68199568380536
+	Right:	115.21677412395482
+	Bottom:	-8.68816669441254
 )
 
-(GLabel.112
-	Bounds:	113
-	Sym:	99
-	Text:	"Jembrana"
+(GLabel.103
+	Bounds:	104
+	Sym:	90
+	Text:	"Denpasar Timur"
 	Spacing:	1.00000000000000
-	Siblings:	109
+	Siblings:	100
 )
 
-(RectD.113
-	Left:	114.62098307049015
-	Top:	-8.29854616448372
-	Right:	114.71606549080934
-	Bottom:	-8.32267875847336
+(RectD.104
+	Left:	115.23131158335997
+	Top:	-8.64142781695791
+	Right:	115.27055921082167
+	Bottom:	-8.64759882756510
 )
 
-(GLabel.114
-	Bounds:	115
-	Sym:	99
-	Text:	"Bangli"
+(GLabel.105
+	Bounds:	106
+	Sym:	90
+	Text:	"Denpasar Utara"
 	Spacing:	1.00000000000000
-	Siblings:	109
+	Siblings:	100
 )
 
-(RectD.115
-	Left:	115.30579253929082
-	Top:	-8.24769988818032
-	Right:	115.36515872050533
-	Bottom:	-8.27183248216996
+(RectD.106
+	Left:	115.20742139210759
+	Top:	-8.60650980341430
+	Right:	115.24605191850857
+	Bottom:	-8.61268081402148
 )
 
-(GLabel.116
-	Bounds:	117
-	Sym:	99
-	Text:	"Karangasem"
-	Spacing:	1.00000000000000
-	Siblings:	109
-)
-
-(RectD.117
-	Left:	115.49412952498515
-	Top:	-8.35761525417310
-	Right:	115.61527514681315
-	Bottom:	-8.38174784816274
-)
-
-(GLabel.118
-	Bounds:	119
-	Sym:	99
-	Text:	"Badung"
-	Spacing:	1.00000000000000
-	Siblings:	109
-)
-
-(RectD.119
-	Left:	115.16348601791456
-	Top:	-8.53438733139241
-	Right:	115.23684910364307
-	Bottom:	-8.55851992538205
-)
-
-(GLabel.120
-	Bounds:	121
-	Sym:	99
-	Text:	"Gianyar"
-	Spacing:	1.00000000000000
-	Siblings:	109
-)
-
-(RectD.121
-	Left:	115.24741184301416
-	Top:	-8.46800689625112
-	Right:	115.32198155844215
-	Bottom:	-8.49213949024076
-)
-
-(GLabel.122
-	Bounds:	123
-	Sym:	99
-	Text:	"Klungkung"
-	Spacing:	1.00000000000000
-	Siblings:	109
-)
-
-(RectD.123
-	Left:	115.48400838919281
-	Top:	-8.72429478499602
-	Right:	115.58488263206951
-	Bottom:	-8.74842737898565
-)
-
-(GLabel.124
-	Bounds:	125
-	Sym:	99
-	Text:	"Denpasar"
-	Spacing:	1.00000000000000
-	Siblings:	109
-)
-
-(RectD.125
-	Left:	115.17352996829068
-	Top:	-8.64756143590770
-	Right:	115.26619912921090
-	Bottom:	-8.67169402989734
-)
-
-(MapDpy.126
-	Left:	114.31520748468900
-	Bottom:	-9.04908631502851
-	Top:	-7.88167208077968
-	Right:	116.04002359842083
+(MapDpy.107
+	Left:	115.07553442699242
+	Bottom:	-8.73357236829804
+	Top:	-8.62263807697255
+	Right:	115.37428186621574
 	ReportUnits:	4
 	Units:	10
-	Scale:	101
+	Scale:	92
 	FrameTop:	9.40625000000000
 	FrameRight:	18.38541666666667
-	PageDpy:	127
+	PageDpy:	108
 	FitToPage:	1
-	MouseLoc:	129
+	MouseLoc:	110
 )
 
-(PageDpy.127
+(PageDpy.108
 	Top:	9.40625000000000
 	Right:	18.38541666666667
 	ReportUnits:	1
 	Units:	1
-	Scale:	128
+	Scale:	109
 	ZoomRight:	18.38541666666667
 	ZoomTop:	9.40625000000000
 	GridSpacingX:	0.25000000000000
 	GridSpacingY:	0.25000000000000
 )
 
-(Numb.128
+(Numb.109
 	N:	96.00000000000000
 )
 
-(PointD.129
-	x:	114.98046086744313
-	y:	-8.46861124174199
+(PointD.110
+	x:	115.07756557105513
+	y:	-8.63909033043078
 )
 
-(Numb.130
+(Numb.111
 )
 
-(ITheme.131
-	Name:	"Peta balicontoh.jpg"
-	Source:	132
-	Flags:	0x04
-	Legend:	139
-	Threshold:	143
-	View:	90
-	GSet:	144
+(FTheme.112
+	Name:	"Book1.txt"
+	Source:	113
+	Flags:	0x06
+	Legend:	130
+	Threshold:	149
+	View:	81
+	GSet:	150
 	LegEditScript:	"View.EditLegend"
+	TxPos:	151
+	LabelField:	124
+	SnapTolCursor:	1
 )
 
-(ISrc.132
-	Name:	133
-	MapBox:	135
-	BandStats:	136
-	BandStats:	137
-	BandStats:	138
+(XYSrc.113
+	Name:	114
+	FTab:	122
+	XField:	126
+	YField:	125
 )
 
-(SrcName.133
-	FileName:	134
-	Name:	"peta balicontoh.jpg"
-	OwnerClass:	"ISrc"
+(XYName.114
+	Name:	"book1.txt"
+	OwnerClass:	"XYSrc"
+	VTab:	115
+	XField:	119
+	YField:	118
 )
 
-(FN.134
-	Path:	"c:/agung/peta balicontoh.jpg"
+(VTab.115
+	Name:	"book1.txt"
+	BTab:	116
+	Fields:	117
+	Fields:	118
+	Fields:	119
+	SelBits:	121
 )
 
-(RectD.135
-	Left:	114.31216071241633
-	Top:	-7.92310100633819
-	Right:	115.88017536126344
-	Bottom:	-8.98438667383713
-)
-
-(BStat.136
-	Max:	255.00000000000000
-	Mean:	127.50000000000000
-	StDv:	63.75000000000000
-)
-
-(BStat.137
-	Max:	255.00000000000000
-	Mean:	127.50000000000000
-	StDv:	63.75000000000000
-)
-
-(BStat.138
-	Max:	255.00000000000000
-	Mean:	127.50000000000000
-	StDv:	63.75000000000000
-)
-
-(MBILeg.139
-	GreenBand:	1
-	BlueBand:	2
-	RedLUT:	140
-	GreenLUT:	141
-	BlueLUT:	142
-)
-
-(ILUTIdn.140
-)
-
-(ILUTIdn.141
-)
-
-(ILUTIdn.142
-)
-
-(Thresh.143
-)
-
-(GSet.144
-)
-
-(GSet.145
-	Child:	97
-	Child:	110
-	Child:	112
-	Child:	114
-	Child:	116
-	Child:	118
-	Child:	120
-	Child:	122
-	Child:	124
-)
-
-(TxPosPly.146
-	HAlign:	3
-	VAlign:	3
-)
-
-(AttrSingle.147
-	FTab:	14
-	Field:	17
-	UnionRule:	1
-	SplitRule:	1
-)
-
-(AttrSingle.148
-	FTab:	14
-	Field:	18
-	UnionRule:	1
-	SplitRule:	1
-)
-
-(AttrSingle.149
-	FTab:	14
-	Field:	19
-	UnionRule:	1
-	SplitRule:	1
-)
-
-(DocAct.150
-	Doc:	6
-)
-
-(Table.151
-	Name:	"tabel praktikum.txt"
-	CreationDate:	"28 October 2024 10:43:16"
-	GUIName:	"Table"
-	Win:	152
-	CSMgr:	153
-	DocExts:	154
-	VTab:	155
-)
-
-(DocWin.152
-	Owner:	151
-	X:	1058
-	Y:	55
-	W:	373
-	H:	260
-)
-
-(CSMgr.153
-)
-
-(DocAct.154
-	Doc:	151
-)
-
-(VTab.155
-	Name:	"tabel praktikum.txt"
-	BTab:	156
-	Fields:	157
-	Fields:	158
-	Fields:	159
-	Fields:	160
-	Fields:	161
-	SelBits:	163
-)
-
-(DTxt.156
-	Name:	"tabel praktikum.txt"
-	Fields:	157
-	Fields:	158
-	Fields:	159
-	Fields:	160
-	Fields:	161
-	FileName:	162
+(DTxt.116
+	Name:	"book1.txt"
+	Fields:	117
+	Fields:	118
+	Fields:	119
+	FileName:	120
 	Delim:	9
 	FFirst:	1
 )
 
-(Field.157
-	Name:	"Kabupaten"
-	Btab:	156
-	Alias:	"Kabupaten"
+(Field.117
+	Name:	"Mall denpasar"
+	Btab:	116
+	Alias:	"Mall denpasar"
 	Visible:	1
 	Type:	4
-	Pixels:	65
+	Pixels:	101
 )
 
-(Field.158
-	Name:	"Luas"
-	Btab:	156
-	Alias:	"Luas"
+(Field.118
+	Name:	"Y"
+	Btab:	116
+	Alias:	"Y"
 	Visible:	1
 	Type:	9
 	Order:	1
-	Pixels:	47
+	Pixels:	41
 )
 
-(Field.159
-	Name:	"Kecamatan"
-	Btab:	156
-	Alias:	"Kecamatan"
+(Field.119
+	Name:	"X"
+	Btab:	116
+	Alias:	"X"
 	Visible:	1
 	Type:	9
 	Order:	2
-	Pixels:	59
+	Pixels:	47
+)
+
+(FN.120
+	Path:	"c:/agung2/book1.txt"
+)
+
+(Bitmap.121
+	NumBits:	6
+
+)
+
+(FTab.122
+	Name:	"book1.txt"
+	BTab:	123
+	Fields:	128
+	Fields:	124
+	Fields:	125
+	Fields:	126
+	SelBits:	129
+	FSrc:	113
+)
+
+(DTxt.123
+	Name:	"book1.txt"
+	Fields:	124
+	Fields:	125
+	Fields:	126
+	FileName:	127
+	Delim:	9
+	FFirst:	1
+)
+
+(Field.124
+	Name:	"Mall denpasar"
+	Btab:	123
+	Alias:	"Mall denpasar"
+	Visible:	1
+	Type:	4
+	Pixels:	101
+)
+
+(Field.125
+	Name:	"Y"
+	Btab:	123
+	Alias:	"Y"
+	Visible:	1
+	Type:	9
+	Order:	1
+	Pixels:	41
+)
+
+(Field.126
+	Name:	"X"
+	Btab:	123
+	Alias:	"X"
+	Visible:	1
+	Type:	9
+	Order:	2
+	Pixels:	47
+)
+
+(FN.127
+	Path:	"c:/agung2/book1.txt"
+)
+
+(Field.128
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.129
+	NumBits:	6
+
+)
+
+(Legend.130
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	131
+	Class:	139
+	StdDevs:	1.00000000000000
+	NullSym:	140
+	NullValues:	147
+	StatValues:	148
+	Precision:	-3
+)
+
+(SymList.131
+	Child:	132
+)
+
+(BMkSym.132
+	Color:	133
+	BgColor:	134
+	Font:	135
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.133
+	Red:	0x3e45
+	Green:	0x3640
+	Blue:	0x891b
+)
+
+(TClr.134
+	Name:	"Transparent"
+)
+
+(NFont.135
+	Family:	136
+	Name:	137
+	Style:	138
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.136
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.137
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.138
+	S:	"Normal"
+)
+
+(LClass.139
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.140
+	Color:	141
+	BgColor:	142
+	Font:	143
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.141
+	Name:	"Transparent"
+)
+
+(TClr.142
+	Name:	"Transparent"
+)
+
+(NFont.143
+	Family:	144
+	Name:	145
+	Style:	146
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.144
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.145
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.146
+	S:	"Normal"
+)
+
+(NameDict.147
+)
+
+(NameDict.148
+)
+
+(Thresh.149
+)
+
+(GSet.150
+)
+
+(TxPosPt.151
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.152
+	Name:	"Area bali.shp"
+	Source:	153
+	Flags:	0x04
+	Legend:	162
+	Threshold:	175
+	View:	81
+	GSet:	176
+	LegEditScript:	"View.EditLegend"
+	TxPos:	177
+	SnapTolCursor:	1
+)
+
+(ShpSrc.153
+	Name:	154
+	FTab:	156
+)
+
+(SrcName.154
+	FileName:	155
+	Name:	"area bali.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.155
+	Path:	"c:/agung2/area bali.shp"
+)
+
+(FTab.156
+	Name:	"area bali.dbf"
+	BTab:	157
+	Fields:	160
+	Fields:	158
+	SelBits:	161
+	FSrc:	153
+)
+
+(dBASE.157
+	Name:	"area bali.dbf"
+	Fields:	158
+	FileName:	159
+)
+
+(Field.158
+	Name:	"Id"
+	Btab:	157
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.159
+	Path:	"c:/agung2/area bali.dbf"
 )
 
 (Field.160
-	Name:	"Desa"
-	Btab:	156
-	Alias:	"Desa"
+	Name:	"Shape"
+	Alias:	"Shape"
 	Visible:	1
-	Type:	9
-	Order:	3
-	Pixels:	30
+	Type:	19
+	Order:	-1
 )
 
-(Field.161
-	Name:	"Lahan pertanian"
-	Btab:	156
-	Alias:	"Lahan pertanian"
-	Visible:	1
-	Type:	9
-	Order:	4
-	Pixels:	82
-)
-
-(FN.162
-	Path:	"c:/agung/tabel praktikum.txt"
-)
-
-(Bitmap.163
-	NumBits:	9
+(Bitmap.161
+	NumBits:	4
 
 )
 
-(LButn.164
+(Legend.162
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	163
+	Class:	168
+	StdDevs:	1.00000000000000
+	NullSym:	169
+	NullValues:	173
+	StatValues:	174
+	Precision:	-3
+)
+
+(SymList.163
+	Child:	164
+)
+
+(BShSym.164
+	Color:	165
+	Outline:	1
+	OutlineColor:	166
+	OutlineWidth:	0.10000000000000
+	BgColor:	167
+)
+
+(TClr.165
+	Red:	0x4050
+	Green:	0x8896
+	Blue:	0x5cfb
+)
+
+(TClr.166
+)
+
+(TClr.167
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.168
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.169
+	Color:	170
+	Outline:	1
+	OutlineColor:	171
+	OutlineWidth:	0.10000000000000
+	BgColor:	172
+)
+
+(TClr.170
+	Name:	"Transparent"
+)
+
+(TClr.171
+	Name:	"Transparent"
+)
+
+(TClr.172
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.173
+)
+
+(NameDict.174
+)
+
+(Thresh.175
+)
+
+(GSet.176
+)
+
+(TxPosPly.177
+	HAlign:	3
+	VAlign:	3
+)
+
+(GSet.178
+	Child:	88
+	Child:	101
+	Child:	103
+	Child:	105
+)
+
+(TxPosPly.179
+	HAlign:	3
+	VAlign:	3
+)
+
+(DocAct.180
+	Doc:	6
+)
+
+(Table.181
+	Name:	"book1.txt"
+	CreationDate:	"25 November 2024 11:38:01"
+	GUIName:	"Table"
+	Win:	182
+	CSMgr:	183
+	DocExts:	184
+	VTab:	115
+)
+
+(DocWin.182
+	Owner:	181
+	Open:	1
+	X:	793
+	Y:	148
+	W:	373
+	H:	260
+)
+
+(CSMgr.183
+)
+
+(DocAct.184
+	Doc:	181
+)
+
+(LButn.185
 	HelpTopic:	"New_button"
 	Update:	"Doc.NewUpdate"
 	Label:	"&New"
 	Click:	"Table.New"
 )
 
-(LButn.165
+(LButn.186
 	HelpTopic:	"Open_button"
 	Update:	"Doc.OpenUpdate"
 	Label:	"&Open"
 	Click:	"Doc.Open"
 )
 
-(LButn.166
+(LButn.187
 	HelpTopic:	"Add_button"
 	Update:	"Table.ActionUpdate"
 	Label:	"&Add"
 	Click:	"Table.Action"
 )
 
-(FN.167
-	Path:	"$AVEXT/jfif.avx"
+(NameDict.188
 )
 
-(NameDict.168
+(NameDict.189
+	Obj:	190
+	Obj:	191
 )
 
-(NameDict.169
-	Obj:	170
-	Obj:	171
-)
-
-(AVDict.170
+(AVDict.190
 	InternalName:	"Table of Contents Defaults Dialog"
 )
 
-(AVDict.171
+(AVDict.191
 	InternalName:	"_Thor_"
 )
 
-(FN.999
+(FN.1018
 	Path:	"$HOME"
 )
 
-(TClr.1000
+(TClr.1019
 	Red:	0xffff
 	Green:	0xffff
 )
 
-(AVStr.1001
+(AVStr.1020
 	S:	"View"
 )
 
-(AVStr.1002
+(AVStr.1021
 	S:	"Table"
 )
 
-(AVStr.1003
+(AVStr.1022
 	S:	"Chart"
 )
 
-(AVStr.1004
+(AVStr.1023
 	S:	"Layout"
 )
 
-(AVStr.1005
+(AVStr.1024
 	S:	"Script"
 )
 
-(AVStr.1006
+(AVStr.1025
 	S:	"Project"
 )
 
-(AVStr.1007
+(AVStr.1026
 	S:	"Appl"
 )
 

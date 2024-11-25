@@ -1,0 +1,7 @@
+Mall Denpasar	Y	X
+Trans Studio	-8.701	115.183
+Ramayana Sesetan	-8.691	115.217
+Plaza Renon	-8.673	115.243
+Mall Level 21	-8.669	115.213
+Mall Dps	-8.666	115.215
+		
